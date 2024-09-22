@@ -72,7 +72,9 @@
   font-weight: 900;
   font-style: italic;
 }
-
+.bgimg{
+  background-image: url(Rectangle\ 9.png);
+}
 
 </style>
 <script>
@@ -84,6 +86,11 @@
             Bikeprimary:'#E76F51',
             'card-des-color':'rgba(39, 39, 39, 0.60);',
             'flower-bg':' rgba(229, 84, 115, 0.10)',
+           'bg-gray':'rgba(39, 39, 39, 0.05)',
+            roundflowerbg:'rgba(167, 33, 98, 0.15)',
+            roundflowerbg1:'rgba(5, 151, 160, 0.15)',
+            roundflowerbg2:'rgba(71, 125, 17, 0.15)',
+            redrosebg:'rgba(229, 84, 115, 0.05)'
             
           }
         }
@@ -110,5 +117,109 @@
         </div>
       </div>
     </section>
+
+
+    
+    <main>
+      <section class=" max-w-[1000px] m-auto mt-[100px] mb-[100px]">
+      <h1 class="text-center lato-bold text-[38px] md:text-[40px]">Our Featured Flowers</h1>
+      <p class="lato-regular text-center text-[11px] md:text-[18px] ">It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.</p>
+      <div class="flex flex-col md:flex-row items-center gap-[20px] mt-[30px] ">
+        <div>
+          <div class="w-[310px] h-[373px] rounded-t-full bg-roundflowerbg">
+          <img src="pngwing 6.png" class=" w-[248px] relative left-[31px] bottom-[-29px]">
+         
+        </div><br>
+        <div>
+          <p class="text-center lato-bold text-sm"><a href="" class="underline decoration-solid" >Pink Flower Tree</a></p>
+        </div>
+      </div>
+      <div>
+        <div class="w-[310px] h-[373px] rounded-t-full bg-roundflowerbg1">
+          <img src="Flower Asset/pngwing 5.png" class="  w-[248px] relative left-[37px] bottom-[-66px]" >
+         
+        </div><br>
+        <div>
+          <p  class="text-center lato-bold text-sm "><a href="" class="underline decoration-solid">Pink Flower Tree</a></p>
+        </div>
+      </div>
+      <div>
+        <div class="w-[310px] h-[373px] rounded-t-full bg-roundflowerbg2">
+          <img src="Flower Asset/pngwing 7.png"  class=" w-[248px] relative left-[31px]">
+        </div><br>
+        <div>
+          <p class="text-center lato-bold text-sm"><a href="" class="underline decoration-solid" >Pink Flower Tree</a></p>
+        </div>
+      </div>
+
+
+    </div>
+      </section>
+      <section class="  max-w-[1200px] m-auto mt-[100px] mb-[100px] ">
+        <div class="grid grid-cols-1 md:grid-cols-3 items-center bg-bg-gray md:h-[300px] pl-[140px]">
+          <div>
+            <img src="Flower Asset/Group 57.png" class="md:pl-[65px]">
+            <p>Same Day Delivery. Click & Collect.</p>
+          </div>
+          <div>
+            <img src="Flower Asset/Group 58.png " class="md:pl-[65px]">
+            <p>Fresh Flowers. Local Growers.</p>
+          </div>
+          <div>
+            <img src="Flower Asset/Group 59.png" class="md:pl-[65px]">
+            <p>24/7 Free Support.</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="mt-[100px] mb-[100px]">
+        <div class="hero bg-redrosebg h-[800px] md:h-[500px]">
+          <div class="hero-content flex-col lg:flex-row-reverse md:gap-[100px]">
+            <img
+              src="Flower Asset/pngwing 8.png"
+              class="max-w-sm rounded-lg " />
+            <div class="flex flex-col items-center">
+              <h1 class="text-[40px] lato-bold text-center">Hot Deal ! Sale Up To 25% <span class="text-[#E55473]">Off</span></h1>
+              <p class="py-6 text-center">
+                It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.
+              </p>
+              <button class="btn btn-primary bg-[#E55473] border-none text-white">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class=" max-w-[1200px] m-auto mt-[100px] mb-[100px]">
+        <h1 class="text-center lato-bold text-[38px] md:text-[40px]">Instagram</h1>
+        <p class="lato-regular text-center text-[11px] md:text-[18px] ">It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.</p>
+        
+  <div class="inline-grid grid-cols-1 md:grid-cols-4 gap-[20px] mt-[40px] relative left-[15px]">
+    <img src="Flower Asset/Flower 01.png">
+    <img src="Flower Asset/Rectangle 4.png">
+    <img src="Flower Asset/Rectangle 5.png">
+    <img src="Flower Asset/Rectangle 6.png">
+  </div>
+      
+        </section>
+    </main>
+    <footer>
+      <section class=" max-w-[1200px] m-auto mt-[100px] mb-[100px]">
+        <div class="bgimg  bg-cover h-[350px] flex flex-col items-center pt-[103px] gap-[58px]">
+        <div class="">
+          <h1 class="text-center text-[40px] lato-bold">Get The Latest Deals</h1>
+          <p class="text-center lato-regular text-[18px]">$30 coupon for first shopping</p>
+        </div>
+        <div class="flex justify-center gap-[20px]">
+          <div>
+            <input
+    type="text"
+    placeholder="Enter your email here...."
+    class="input input-bordered input-warning w-[200px] md:w-[500px] " />
+          </div>
+          <div><button class="btn btn-secondary rounded-[8px]">Secondary</button></div>
+        </div>
+      </div>
+      </section>
+    </footer>
 </body>
 </html>
